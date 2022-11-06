@@ -14,11 +14,16 @@ public class Usuario {
     return "Nome: " + nome;
   }
 
-  public boolean VerificaNome(Usuario usuario) {
+  public boolean verificaNome(Usuario usuario) {
     return this.nome.equals(usuario.nome);
   }
 
-  public boolean VerificaSenha(Usuario usuario) {
+  public boolean verificaSenha(Usuario usuario) {
     return this.senha.equals(usuario.senha);
+  }
+
+  @Override
+  public String toString() {
+    return "Nome: "+nome;
   }
 }
