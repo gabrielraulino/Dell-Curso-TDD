@@ -1,0 +1,11 @@
+Cliente
+    - Nome
+    - Senha
+    - verificaNome
+    - verificaSenha
+Acesso
+    + Cadastra
+    + imprime
+    + qtdClientes
+    + contemCliente
+    + autentica
